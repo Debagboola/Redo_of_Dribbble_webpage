@@ -1,0 +1,143 @@
+.left-section{
+    background: url('../img/black.jpg');
+    height: 656px;
+    position: relative;
+}
+.navs{
+    /* background:red; */
+    width:50%;
+    position: absolute;
+    margin-left:450px;
+    margin-top:40px;
+}
+.navs ul{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-size:15px;
+    text-transform: uppercase;
+    
+}
+.right-section{
+    background: url('../img/model\(1\).png');
+    height: 656px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+}
+.top-nav{
+    color: white;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.bottom{
+    color: silver;
+    margin-left: 20px;
+}
+.l-t-cont{
+    padding: 20px;
+    line-height: 1px;
+    margin-left: 40px;
+    text-align: left;
+}
+.home{
+    text-align: right;
+    margin-top:-50px;
+    padding: 0px 20px 0px 20px;
+    
+}
+h5{
+    color: white;
+    text-transform: uppercase
+}
+.display-text{
+    /* padding:20px; */
+    color: white;
+    margin: 130px 70px 0px;
+
+}
+.coll{
+    font-size: 60px;
+    font-weight:lighter;
+}
+h6{
+    text-transform: uppercase;
+    color: silver;
+    font-weight: lighter;
+}
+.button{
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    border-radius:20px;
+    padding:13px 20px;
+    background: none;
+    font-size:11px;
+    margin:50px 75px;
+    font-weight:lighter;
+    transition:.5s;
+}
+.button:hover{
+    color:black;
+    background:white;
+    transition:.5s;
+    text-decoration: none;
+}
+.nav{
+    text-transform: uppercase;
+    color:black;
+
+}
+.nav ul{
+    display:flex;
+    margin: 10px;
+    margin-left:3px;
+    
+}
+.nav ul li{
+    padding:30px;
+    
+}
+.icons ul{
+    display: flex;
+    margin: 10px;
+    margin-left:3px;
+}
+.icons ul li{
+    padding: 30px 16px;
+}
+.spans{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.menu-ico{
+    display: none;
+    cursor: pointer;
+}
+.menu-ico span{
+    cursor: pointer;
+    background: white;
+    padding:1px;
+    width:30px;
+    height:3px;
+    margin:2px;
+
+}
+@media screen and (max-width: 1024px){
+    .nav{
+        display: none;
+    }
+    .h-text{
+        display: none;
+    }
+
+    .menu-ico{
+        display: block;
+        cursor: pointer;
+        
+    }
+
+    .home{
+        float: right;
+    }
+}

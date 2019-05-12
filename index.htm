@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dribbble E-commerce Home Page</title>
+    <link rel="icon" type="" href="assets/img/icon.jpg"> 
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Scripts -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-md-5 left-section">
+            <div class="row">
+                <div class="container l-t-cont">
+                    <h4 class="top-nav">M a l l i n i </h4>
+                    <span class="bottom">
+                        Couture
+                    </span>
+                </div>
+                <div class="home">
+                    <h5 class="h-text">home</h5>
+                        <div id="menu-ico" class="menu-ico" style="background:transparent;padding:10px;">
+                            <div id="spans" class="spans">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                   
+                </div>
+            </div>
+            <div class="display-text">
+                <h1 class="coll">
+                    Collection Summer 2017
+                </h1>
+                <h6>Brand New Dresses</h6>
+            </div>
+            <a href="" class="button">Discover More</a>
+        </div>
+        <div class="col-md-7 right-section">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row nav">
+                        <ul>
+                            <li>catalog <i class="fa fa-arrow-down"></i></li>
+                            <li>sale</li>
+                            <li>About us</li>
+                            <li>contacts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icons">
+                        <ul>
+                            <li>
+                                <i class="fa fa-search"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-heart"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-box"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#menu").click(function(){
+                $('body').hide();
+            });
+        });
+        
+        function showNav(){
+            document.getElementById('menu').style.display= 'none';
+        }
+    </script>
+  </body>
+</html>
